@@ -1,10 +1,4 @@
-# Output your name
+# Create ASCII art using print.
+# This involves using lines, spaces and some letters to create an image
+# You'll need to use print multiple times to create your image.
 
-# Output your favourite colour
-
-# Output your favourite animal
-
-# Output the best way to eat a large slice of pizza
-
-
-### When you are finished, remember to SAVE, COMMIT & PUSH ###
