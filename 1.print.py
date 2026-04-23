@@ -1,4 +1,11 @@
-# Create ASCII art using print.
-# This involves using lines, spaces and some letters to create an image
-# You'll need to use print multiple times to create your image.
+### ASCII Art ###
+# Create a picture using lines, spaces and/or some letters.
+# You'll need to use print multiple times to create your picture.
 
+
+
+
+# -------------------------
+
+# EXTENSION
+# Try to create a more completed ASCII picture
