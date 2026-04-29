@@ -20,3 +20,14 @@
 # Output the answer
 
 # ---------------------------------
+
+# EXTENSION
+# Also output how many total hours and how many total minutes in the days
+# Create another calculator that does the opposite (input is seconds, output is days)
+
+# ---------------------------------
+
+# EXPERT (for those who already know some Python)
+# Create the calculator above, but...
+#   allow your user to choose the input and output type (seconds, minutes, hours, days)
+#   Loop the calculator so they can do it again with having to reopen the program.

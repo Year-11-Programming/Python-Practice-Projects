@@ -8,4 +8,4 @@
 # -------------------------
 
 # EXTENSION
-# Try to create a more completed ASCII picture
+# Try to create a more complicated ASCII picture
