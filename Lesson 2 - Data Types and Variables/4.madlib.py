@@ -7,8 +7,6 @@
 
 # Ask user for a colour and save it in a variable
 
-# Ask user for an object and save it in a variable
-
 # Print your madlib using the 4 variables above.
 
 # ----------------------------
