@@ -8,12 +8,11 @@
 
 # What is 567 * 34 * 3?
 
-
 # Print 'hello' 32 times.
 
 # -------------------------
 
-# EXTENSION
+# EXTENSION 1
 
 # What is 2345 / 766 rounded to the nearest whole number?
 

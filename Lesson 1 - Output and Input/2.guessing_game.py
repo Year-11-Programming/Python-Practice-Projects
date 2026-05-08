@@ -12,7 +12,7 @@
 # ------------------------------
 
 # EXTENSION
-# Create another guessing game
+# Create more sections to your guessing game so they have to guess about more things
 
 
 # ------------------------------

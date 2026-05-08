@@ -21,8 +21,11 @@
 
 # ---------------------------------
 
-# EXTENSION
+# EXTENSION 1
 # Also output how many total hours and how many total minutes in the days
+
+# ---------------------------------
+# EXTENSION 2
 # Create another calculator that does the opposite (input is seconds, output is days)
 
 # ---------------------------------
