@@ -15,3 +15,17 @@
 # If beach, tell them to pack a towel
 
 # If mountains, tell them to pack hiking boots
+
+# ___________________________
+
+# EXTENSION
+
+# Add some more conditions (eg. one day or overnight? solo or with others?)
+
+# ____________________________
+
+# EXPERT (for those who already know Python)
+
+# Create a packing checklist (start with something similar to the main program) then 
+# display all items to pack with a X or O for packed or not. 
+# Allow the user to select an item to change its status.
