@@ -1,5 +1,8 @@
-print(5 == 5.0)
+def search( arr,  n,  x):
+    for i in range(n):
+        if (arr[i] == x):
+            return i
+    return -1
 
 
-if 5 < 10:
-    pass
+
