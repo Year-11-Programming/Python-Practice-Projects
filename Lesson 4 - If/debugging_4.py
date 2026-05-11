@@ -6,8 +6,8 @@ if steps_int < 10000
 if steps_int < 5000:
 print("Good start, but try to walk a bit more tomorrow!")
 DAILY_GOAL = 5000
-IF the steps is exactly the same as the daily_goal, 
-    PRINT "Bullseye! You hit your goal exactly!"
-IF the steps_int is 0, 
-    PRINT "Did you forget your phone today? You have 0 steps!"
-PRINT "Tracker closing..."
+IF the steps is exactly the same as the daily_goal THEN
+    OUTPUT "Bullseye! You hit your goal exactly!"
+IF the steps_int is 0 THEN 
+    OUTPUT "Did you forget your phone today? You have 0 steps!"
+OUTPUT "Tracker closing..."
