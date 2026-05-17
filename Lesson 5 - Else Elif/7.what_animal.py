@@ -1,3 +1,8 @@
+### WHAT ANIMAL ARE YOU QUIZ ###
+
+# FIRST, create a basic Flowchart using the FLowchart Shapes to plan the flow of your 'what animal are you' quiz. 
+# __________________________
+
 # Write a 'what animal are you' quiz. 
 # You can base this on the picture from last lesson, but make it simpler - 
 # 3 questions and 4 animals.
@@ -33,6 +38,7 @@
 
 # EXTENSION
 # Extend the quiz so there are 8 possible animals
+# Create a Flowchart using the FLowchart Shapes to 
 
 # __________________________
 
