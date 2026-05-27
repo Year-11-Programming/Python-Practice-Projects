@@ -19,4 +19,4 @@ print("System online.")
 # EXTENSION
 # TODO Add a 'magic eight ball' program for once the system is booted
 # TODO Get the user to ask a yes/no question
-# TODO Randomise a number and use that number to give them a reponse
+# TODO Randomise a number and use that number to give them a response
