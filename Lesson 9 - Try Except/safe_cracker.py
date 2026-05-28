@@ -63,3 +63,8 @@ print("\n--- Game Over ---")
     # -----------------------------------------------------------------
     # TODO: Check if their attempts tracker has reached 5.
     #       If it has, print "Alarm triggered! Security is on the way!" and 'break' the loop.
+
+# =========================================
+# EXPERT
+# Mastermind Version:
+# Add a part that lets you check each digit (you'll need to use split()) and tells the user how many digits are correct in their guess
