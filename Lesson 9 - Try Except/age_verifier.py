@@ -28,3 +28,9 @@
 # TODO Check if they are older than 18 and tell them they have access if they are
 # TODO Check if they are older than 13 and tell them they have partial access if they are.
 # TODO Otherwise tell them access has been denied
+
+
+# ===================================================================
+# EXTENSION
+# Create a avatar creator for them to use if they get access. There should be 2 versions (full and partial)
+# Eg. Full can choose: character class (warrior, rogue), hair colour, eye colour; partial just character class (with animal classes?)
