@@ -6,7 +6,6 @@
 
 # VARIABLES
 # TODO Create a variable for valid input and set it to false
-# TODO Create a variable to save the user's age and set it to "" (blank)
 
 # GET INPUT
 # TODO Start a loop while the input is invalid
