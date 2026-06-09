@@ -17,6 +17,5 @@ starting_weapon = hero_data["Player1"]["gear"["0"]]
 print(f"Starting weapon for Player 1: {starting_weapon}")
 hero_data["Player2"]{"health"} = 75
 print(f"Updated Player 2 Data: {hero_data["Player2"]}")
-# PSEUDOCODE START
 # IF the string "staff" is IN the list stored at hero_data "Player2" "gear"
 # THEN print "Mage is fully equipped"
