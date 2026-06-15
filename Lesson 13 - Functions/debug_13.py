@@ -1,7 +1,5 @@
 security_status = "LOCKED"
 alarm_sound = "SIREN"
-def alarm_settings():
-    alarm_sound = input("What sound would you like the alarm to make?").upper()
 def trigger_alarm():
 print(f"Alert! Sounding the {alarm_sound}")
 def check_system
@@ -18,9 +16,6 @@ else:
 
 def main():
 print(f"The current alarm sound is: {alarm_sound}")
-user_input = input("Would you like to change the alarm settings? y/n").lower()
-if user_input == "n":
-    alarm_settings
 check_system
 reset_system
 

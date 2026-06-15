@@ -8,16 +8,11 @@ This sets alarm sound and sounds the alarm when door is unlocked.
 #============================================
 
 security_status = "LOCKED"
-alarm_sound = "SIREN"
+global alarm_sound = "SIREN"
 
 #============================================
 # FUNCTIONS
 #============================================
-
-# Changes the alarm settings (sound)
-def alarm_settings():
-    alarm_sound = input("What sound would you like the alarm to make?").upper()
-
 
 # Sets off the alarm
 def trigger_alarm():
@@ -41,9 +36,6 @@ def reset_system():
 # Runs the main program
 def main():
     print(f"The current alarm sound is: {alarm_sound}")
-    user_input = input("Would you like to change the alarm settings? y/n").lower()
-    if user_input == "y":
-        alarm_settings()
     check_system()
     reset_system()
 
