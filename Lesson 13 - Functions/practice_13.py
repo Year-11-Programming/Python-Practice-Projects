@@ -82,11 +82,11 @@ elif choice == "2":
     if gst_included:
         gst = price * 3 / 23
         print(f"GST = ${gst}")
-        print(f"Item without GST = {price - gst}")
+        print(f"Item without GST = ${price - gst}")
     else:
         gst = price * 0.15
-        print(f"GST = {gst}")
-        print(f"Item with GST = {price + gst}")
+        print(f"GST = ${gst}")
+        print(f"Item with GST = ${price + gst}")
 
 else:
     print("Invalid choice. Exiting dashboard.")

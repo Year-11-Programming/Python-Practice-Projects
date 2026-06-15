@@ -52,15 +52,15 @@ def calculate_gst():
     if gst_included:
         gst = price * 3 / 23
         print(f"GST = ${gst}")
-        print(f"Item without GST = {price - gst}")
+        print(f"Item without GST = ${price - gst}")
     else:
         gst = price * 0.15
-        print(f"GST = {gst}")
-        print(f"Item with GST = {price + gst}")
+        print(f"GST = ${gst}")
+        print(f"Item with GST = ${price + gst}")
 
 
 def main():
-    
+
     print("📱 Welcome to the Finance Helper Dashboard 📱\n")
     print("1. Discount Calculator")
     print("2. GST Calculator")
