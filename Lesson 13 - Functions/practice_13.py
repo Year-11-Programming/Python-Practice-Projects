@@ -1,28 +1,20 @@
 """
-PROGRAM: Video Game Profile Setup
-This program helps the user create a profile for a generic video game.
+PROGRAM: Finance Helper Dashboard
+This program helps to calulate different finacial values (discounts, gst)
 """
-
-# =====================================================================
-# VALUES
-# =====================================================================
-character_name = ""
-level = 1
-has_bonus_health = False
-can_enter_dungeon = True
 
 # =====================================================================
 # FUNCTIONS
 # =====================================================================
 
-# TODO Create a function for creating character. 
-# TODO Copy and paste all the relevent code from below into new function.
+# TODO Create a function for calculating discount. 
+# TODO Copy and paste all the relevent code from below (all of choice 1) into new function.
 # TODO Write a comment above the function to explain what it does
 # TODO Replace the copied code below with a function call.
 
 
-# TODO Create a function for showing status. 
-# TODO Copy and paste all the relevent code from below into new function.
+# TODO Create a function for calculating gst. 
+# TODO Copy and paste all the relevent code from below (all of choice 2) into new function.
 # TODO Write a comment above the function to explain what it does
 # TODO Replace the copied code below with a function call.
 
@@ -36,33 +28,65 @@ can_enter_dungeon = True
 # MAIN EXECUTION
 # =====================================================================
 
-print("⚔️ Welcome to the RPG Character Creator ⚔️\n")
+print("📱 Welcome to the Finance Helper Dashboard 📱\n")
+print("1. Discount Calculator")
+print("2. GST Calculator")
 
-# Create character and stats
-user_input = input("Enter your character's name: ")
-character_name = user_input.strip().upper()
+choice = input("\nWhich tool do you want to use? (1 or 2): ").strip()
 
-while True:
-    level = input("Enter starting level (1-10): ")
-    try:
-        level = int(level)
-        if level >= 1 and level <= 10:
+# Use logical operators to trigger the correct function
+if choice == "1":
+
+    # Run the discount calculator
+    print("--- Tool 1: Discount Calculator ---")
+
+    # Get price
+    while True:
+        price = input("What is the full price of the item? (number only)")
+        try:
+            price = float(price)
             break
-        else:
-            print("That level doesn't exist.")
-    except:
-        print("That's not a number.")
+        except:
+            print("That's not a valid price")
 
-is_ready = input("Is your character ready for battle? (yes/no): ").strip().lower() == "yes"
+    # Get discount
+    while True:
+        discount = input("What is the discount percentage? (number only)")
+        try:
+            discount = float(discount/100)
+            break
+        except:
+            print("That's not a valid percentage")
+    
+    # Calculate and output cost
+    print(f"The item will cost {price * (1-discount)}")
 
-# Calculate special stats based on inputs
-has_bonus_health = level > 5
-can_enter_dungeon = is_ready and (level >= 3)
+    
+elif choice == "2":
+    
+    print("--- Tool 2: GST Calculator ---")
 
-# Show current status
-print("\n=== 📜 OFFICIAL CHARACTER SHEET 📜 ===")
-print(f"NAME:         {character_name}")
-print(f"STARTING LVL: {level}")
-print(f"BONUS HP:     {has_bonus_health}")
-print(f"DUNGEON PASS: {can_enter_dungeon}")
-print("=====================================")
+    # Get price
+    while True:
+        price = input("What is the price of the item? (number only)")
+        try:
+            price = float(price)
+            break
+        except:
+            print("That's not a valid price")
+
+    # Get gst included or excluded
+    gst_included = input("Is GST included in the price?").lower() in ["y", "yes"]
+
+    # Calculate gst
+    if gst_included:
+        gst = price * 3 / 23
+        print(f"GST = ${gst}")
+        print(f"Item without GST = {price - gst}")
+    else:
+        gst = price * 0.15
+        print(f"GST = {gst}")
+        print(f"Item with GST = {price + gst}")
+
+else:
+    print("Invalid choice. Exiting dashboard.")
