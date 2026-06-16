@@ -46,5 +46,5 @@ This starts with a menu so users can run 1 of 3 different programs:
 #===============================
 # EXPERT
 # TODO Instead of bringing the code from other programs into this file, use import to import locally.
-# You'll need to start by editing your other files so all their code is in function with a main() function
+# You'll need to start by editing your other files so all their code is in functions, with a main() function too.
 # NOTE Check this out for info on importing locally: https://github.com/Year-11-Programming/Python-Practice-Projects/wiki/Import-Locals
