@@ -1,33 +1,49 @@
 """
 PROGRAM: Game Shop
 This program runs a shop that displays user and shop inventory, can buy and sell items and displays gold.
-1.
-2.
-3.
 """
 
 # INSTRUCTIONS
 # TODO Create functions for:
-    # Displaying Buy (Shop Inventory)
-    # Buying an item
-    # Displaying Sell (Player Inventory)
-    # Selling an item
-# TODO Display the shop menu (in main()): Buy, Sell, Exit (Give user choice and call functions based on this)
+    # Displaying and choosing items
+# TODO Display the shop menu (in main()): Buy, Sell, Exit
+
+#===============================
+# CONSTANTS
+#===============================
 
 
 #===============================
 # FUNCTIONS
 #===============================
 
-# Display items with prices
-# NOTE For inventory or shop. Pass a string to know which ('buy' or 'sell').
+# Display items with prices (items; action - 'buy' or 'sell'), and returns chosen item
 
-
-# Moves item and adjusts player gold
-# NOTE Pass a string to add or subtract gold ('buy' or 'sell').
 
 
 # Run main code
+
+    # Values
+
+
+
+    # Welcome and user choice
+
+
+        # Buy
+
+
+
+
+        # Sell
+
+
+
+
+        # Exit
+
+
+
 
 #===============================
 # EXECUTION

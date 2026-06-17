@@ -1,9 +1,6 @@
 """
 PROGRAM: Game Shop
 This program runs a game shop for items.
-1.
-2.
-3.
 """
 
 # INSTRUCTIONS
@@ -26,4 +23,4 @@ This program runs a game shop for items.
 #===============================
 #===============================
 # EXTENSION
-# Display other info for each item: attack, defence, item_description, etc.
+# Display extra info for each item (on top of price): attack, defence, item_description, etc.
