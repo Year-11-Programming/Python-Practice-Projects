@@ -23,7 +23,7 @@ This program runs a shop that displays user and shop inventory, can buy and sell
 #===============================
 
 # Display items with prices
-# TODO Create function called display_items with parameters: items (list), action('buy' or 'sell')
+# TODO Create function called display_items with parameters: items, action
     # TODO Loop through the items
         # TODO Print the item name and item_price
     
