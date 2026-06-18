@@ -19,7 +19,7 @@ def calculate_area():
     print(f"The area is {length * width }².")
 
 
-# TODO ------->>>> Write a function here for calculating the circumference after getting length and width from user
+# TODO ------->>>> Write a function here for calculating the perimeter after getting length and width from user
 
 
 
@@ -28,7 +28,7 @@ def main():
 
     print("Welcome to the Geometry Helper for rectangles!\n")
     print("1. Area Calculator")
-    print("2. Circumference Calculator")
+    print("2. Perimeter Calculator")
 
     choice = input("\nWhich tool do you want to use? (1 or 2): ").strip()
 
@@ -39,7 +39,7 @@ def main():
 
     elif choice == "2":
 
-        # TODO ------->>>> Call the function for calculating circumference here
+        # TODO ------->>>> Call the function for calculating perimeter here
 
     else:
         print("Invalid choice. Exiting dashboard.")

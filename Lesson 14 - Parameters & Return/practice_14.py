@@ -1,10 +1,10 @@
 """
 PROGRAM: Geometry Helper
-This program helps to calculate the area and circumference of a rectangle
+This program helps to calculate the area and perimeter of a rectangle
 """
 
 ####### INSTRUCTIONS ########
-# Complete the code by writing functions for calculating the area and circumference 
+# Complete the code by writing functions for calculating the area and perimeter 
 # taking the user input and returning it, 
 # and calling each function based on user choice
 
@@ -17,7 +17,7 @@ This program helps to calculate the area and circumference of a rectangle
 # TODO ------->>>> Return the result.
 
 
-# TODO ------->>>> Write a function here for calculating the circumference using passed values. 
+# TODO ------->>>> Write a function here for calculating the perimeter using passed values. 
 # TODO ------->>>> Return the result.
 
 def display_result(message):
@@ -30,7 +30,7 @@ def main():
 
     print("Welcome to the Geometry Helper for rectangles!\n")
     print("1. Area Calculator")
-    print("2. Circumference Calculator")
+    print("2. Perimeter Calculator")
 
     length = int(input("What is the length of your rectangle?").strip())
     width = int(input("What is the width of your rectangle?").strip())
@@ -46,9 +46,9 @@ def main():
 
     elif choice == "2":
 
-        # TODO ------->>>> Call the function for calculating circumference here and save it into variable 'circumference'
+        # TODO ------->>>> Call the function for calculating perimeter here and save it into variable 'perimeter'
 
-        display_result(f"The circumference of your rectangle is {circumference}.")
+        display_result(f"The perimeter of your rectangle is {perimeter}.")
 
     else:
         print("Invalid choice. Exiting dashboard.")
